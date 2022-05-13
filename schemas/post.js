@@ -41,6 +41,12 @@ export default {
       name: 'publishedAt',
       title: 'Published at',
       type: 'datetime',
+      options: {
+        dateFormat: 'YYYY-MM-DD',
+        timeFormat: 'HH:mm',
+        timeStep: 15,
+        calendarTodayLabel: 'Today'
+      }
     },
     {
       name: 'body',

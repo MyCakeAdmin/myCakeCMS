@@ -47,6 +47,15 @@ export default {
         title: 'Body',
         type: 'blockContent',
       },
+      {
+        name: 'report',
+        title: 'Report',
+        type: 'object',
+        fields: [
+          {name: 'title', type: 'string', title: 'Title'},
+          {name: 'reportFile', type: 'file', title: 'Upload Report'},
+        ]
+      },
     ],
   
     preview: {

@@ -2,7 +2,6 @@ export default {
     name: 'getInTouch',
     title: 'Get In Touch',
     type: 'document',
-    __experimental_actions: [/*'create',*/ 'update', /*'delete',*/ 'publish'],
     fields: [
       {
         name: 'title',
@@ -22,6 +21,27 @@ export default {
         name: 'body',
         title: 'Body',
         type: 'blockContent',
+      },
+      {
+        name: 'email',
+        title: 'Email',
+        type: 'string',
+      },
+      {
+        name: 'telephone',
+        title: 'Telephone',
+        type: 'string',
+      },
+      {
+        title: 'Address',
+        name: 'address',
+        type: 'object',
+        fields: [
+          {name: 'house', type: 'string', title: 'House'},
+          {name: 'street', type: 'string', title: 'Street'},
+          {name: 'town', type: 'string', title: 'Town'},
+          {name: 'area', type: 'string', title: 'County and Postode'},
+        ]
       },
     ],
   }

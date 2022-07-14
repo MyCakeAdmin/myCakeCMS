@@ -9,6 +9,8 @@ import home from './home'
 import ourClients from './ourClients'
 import ourTeam from './ourTeam'
 import getInTouch from './getInTouch'
+import myPlace from './myPlace'
+import coverage from './coverage'
 import blockContent from './blockContent'
 import gallery from './gallery'
 import category from './category'
@@ -29,6 +31,8 @@ export default createSchema({
     ourClients,
     ourTeam,
     getInTouch,
+    myPlace,
+    coverage,
     page,
     post,
     author,

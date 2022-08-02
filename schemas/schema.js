@@ -11,6 +11,7 @@ import ourTeam from './ourTeam'
 import getInTouch from './getInTouch'
 import myPlace from './myPlace'
 import coverage from './coverage'
+import shout from './shout'
 import blockContent from './blockContent'
 import gallery from './gallery'
 import category from './category'
@@ -33,6 +34,7 @@ export default createSchema({
     getInTouch,
     myPlace,
     coverage,
+    shout,
     page,
     post,
     author,

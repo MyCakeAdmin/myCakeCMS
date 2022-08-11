@@ -15,6 +15,7 @@ import shout from './shout'
 import blockContent from './blockContent'
 import gallery from './gallery'
 import category from './category'
+import download from './download'
 import post from './post'
 import page from './page'
 import author from './author'
@@ -39,6 +40,7 @@ export default createSchema({
     post,
     author,
     category,
+    download,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     blockContent,

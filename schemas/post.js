@@ -53,6 +53,12 @@ export default {
       title: 'Body',
       type: 'blockContent',
     },
+    {
+      name: 'downloads',
+      title: 'Downloads',
+      type: 'array',
+      of: [{type: 'reference', to: {type: 'download'}}],
+    },
   ],
 
   preview: {

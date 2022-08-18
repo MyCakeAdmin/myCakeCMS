@@ -63,7 +63,20 @@ export default {
       name: 'fileDownload',
       title: 'Download Links',
       type: 'array',
-      of: [{type: 'download'}]
+      of: [
+        {
+          title: 'Download Link',
+          name: 'fileMeta',
+          type: 'file',
+          fields: [
+            {
+              name: 'title',
+              type: 'string',
+              title: 'Title'
+            },
+          ]
+        }
+      ]
     },
   ],
 

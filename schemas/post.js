@@ -59,6 +59,12 @@ export default {
       type: 'array',
       of: [{type: 'reference', to: {type: 'download'}}],
     },
+    {
+      name: 'fileDownload',
+      title: 'Download Links',
+      type: 'array',
+      of: [{type: 'download'}]
+    },
   ],
 
   preview: {

@@ -27,5 +27,11 @@ export default {
         title: 'Body',
         type: 'blockContent',
       },
+      {
+        name: 'links',
+        title: 'Useful Links',
+        type: 'array',
+        of: [{type: 'link'}]
+      },
     ],
   }

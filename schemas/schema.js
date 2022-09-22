@@ -20,6 +20,7 @@ import link from './link'
 import post from './post'
 import page from './page'
 import author from './author'
+import youtube from './youtube'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -47,5 +48,6 @@ export default createSchema({
     // { type: 'typename' } in other document schemas
     blockContent,
     gallery,
+    youtube,
   ]),
 })
